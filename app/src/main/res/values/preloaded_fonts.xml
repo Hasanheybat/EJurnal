@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--suppress AndroidDomInspection -->
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/advent_pro_thin</item>
+        <item>@font/aldrich</item>
+        <item>@font/alice</item>
+        <item>@font/allerta</item>
+        <item>@font/amaranth</item>
+        <item>@font/amaranth_italic</item>
+        <item>@font/amita</item>
+        <item>@font/andada</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/cairo</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/coda</item>
+        <item>@font/coiny</item>
+        <item>@font/cousine</item>
+        <item>@font/delius</item>
+        <item>@font/ledger</item>
+        <item>@font/nova_round</item>
+        <item>@font/quantico</item>
+        <item>@font/radley</item>
+        <item>@font/ubuntu</item>
+        <item>@font/vast_shadow</item>
+        <item>@font/wallpoet</item>
+        <item>@font/warnes</item>
+    </array>
+</resources>

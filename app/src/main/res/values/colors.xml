@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#006263</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bk">#333399</color>
+    <color name="wrt1">#AEAEAE</color>
+    <color name="wrt2">#D2D2D2</color>
+    <color name="wrt3">#555555</color>
+    <color name="wrt4">#C2C2C2</color>
+    <color name="line">#fafafa</color>
+    <color name="wrt6">#00E1BA</color>
+</resources>
