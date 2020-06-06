@@ -42,8 +42,7 @@ class IllikActivity : AppCompatActivity() {
 
                 if ((ksq1 <= 100.0F) && (ksq1 >= 0.0F) && (ksq2 <= 100.0F) && (ksq2 >= 0.0F)){
 
-                    var cvb1 = ((ksq1 + ksq2 ) / 2 )
-                    var cvb = Math.round(cvb1)
+                    var cvb = ((ksq1 + ksq2 ) / 2 )
                     if (cvb <= 30){
                         editcavablar.setText("İllik bal: $cvb \n İllik qiymət: 2 " )
                         editcavablar.setTextColor(Color.parseColor("#00E1BA"))

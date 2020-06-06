@@ -77,8 +77,7 @@ class Ks6BsActivity : AppCompatActivity() {
                     (ksq3 <=100.0F) && (ksq3 >= 0.0F) && (ksq4 <=100.0F) && (ksq4 >= 0.0F) &&
                     (ksq5 <= 100.0F) && (ksq5 >= 0.0F) && (ksq6 <= 100.0F) && (ksq6 >= 0.0F) &&
                     (bsq <= 100.0F) && (bsq >= 0.0F)){
-                    var cvb1 :Float = (((ksq1 + ksq2 + ksq3 + ksq4 + ksq5 + ksq6) / 6 * 0.4F) + (bsq * 0.6F))
-                    var cvb :Int = Math.round(cvb1)
+                    var cvb :Float = (((ksq1 + ksq2 + ksq3 + ksq4 + ksq5 + ksq6) / 6 * 0.4F) + (bsq * 0.6F))
                     if (cvb <= 30){
                         editcavablar.setText("Yarımillik bal: $cvb \n Yarımillik qiymət: 2")
                         editcavablar.setTextColor(Color.parseColor("#00E1BA"))

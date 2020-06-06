@@ -71,8 +71,7 @@ class Ks6BsNoActivity : AppCompatActivity() {
                     && (ksq6 <= 100.0F) && (ksq6 >= 0.0F)
                 ){
 
-                    var cvb1 = ((ksq1 + ksq2 + ksq3 +ksq4 +ksq5 + ksq6) / 6)
-                    var cvb = Math.round(cvb1)
+                    var cvb = ((ksq1 + ksq2 + ksq3 +ksq4 +ksq5 + ksq6) / 6)
                     if (cvb <= 30){
                         editcavablar.setText("Yarımillik bal: $cvb \n Yarımillik qiymət: 2 " )
                         editcavablar.setTextColor(Color.parseColor("#00E1BA"))

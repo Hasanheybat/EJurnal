@@ -65,8 +65,7 @@ class Ks5BsNoActivity : AppCompatActivity() {
                 if ((ksq1 <= 100.0F) && (ksq1 >= 0.0F) && (ksq2 <= 100.0F) && (ksq2 >= 0.0F) && (ksq3 <= 100.0F)
                     && (ksq3 >= 0.0F) && (ksq4 <= 100.0F) && (ksq4 >= 0.0F) && (ksq5 <= 100.0F) && (ksq5 >= 0.0F)){
 
-                    var cvb1 = ((ksq1 + ksq2 + ksq3 +ksq4 +ksq5) / 5)
-                    var cvb = Math.round(cvb1)
+                    var cvb = ((ksq1 + ksq2 + ksq3 +ksq4 +ksq5) / 5)
                     if (cvb <= 30){
                         editcavablar.setText("Yarımillik bal: $cvb \n Yarımillik qiymət: 2 " )
                         editcavablar.setTextColor(Color.parseColor("#00E1BA"))
